@@ -1,0 +1,47 @@
+{
+  "$schema": "vscode://schemas/settings/user",
+  "workbench.colorTheme": "Solarized Light",
+  "workbench.settings.openDefaultKeybindings": true,
+  "editor.tabSize": 2,
+  "editor.fontFamily": "'Cascadia Code PL', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontLigatures": true,
+  "workbench.fontAliasing": "auto",
+  "remote.extensionKind": {
+    "ms-azuretools.vscode-docker": ["workspace"],
+    "msjsdiag.debugger-for-chrome": ["workspace"]
+  },
+  "workbench.iconTheme": "helium-icon-theme",
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.showPushSuccessNotification": true,
+  "git.path": "/usr/local/bin/git",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    },
+    "editor.formatOnPaste": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnType": false
+  },
+  "workbench.preferredLightColorTheme": "Atom One Light",
+  "workbench.preferredDarkColorTheme": "Atom One Dark",
+  "window.autoDetectColorScheme": true,
+  "remote.SSH.enableDynamicForwarding": false,
+  "remote.SSH.enableAgentForwarding": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "terminal.integrated.enableBell": true,
+  "terminal.integrated.rendererType": "canvas"
+}

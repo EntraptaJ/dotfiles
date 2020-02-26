@@ -1,0 +1,32 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["/Configs/**/config.json"],
+      "schema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name of the target for the configuration"
+          },
+          "files": {
+            "type": "array",
+            "description": "Array of configuration files to be copied",
+            "items": {
+              "properties": {
+                "file": {
+                  "type": "string",
+                  "description": "Name of the file within the Configuration's folder"
+                },
+                "destination": {
+                  "type": "string",
+                  "description": "Path of the destination. PWD is user's home"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

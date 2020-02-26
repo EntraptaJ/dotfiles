@@ -1,0 +1,9 @@
+{
+  "name": "VSCode2",
+  "files": [
+    {
+      "file": "settings.json",
+      "destination": "Library/Application Support/Code/User/settings.json"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "configurator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --loader @k-foss/ts-esnode --experimental-specifier-resolution=node --harmony-top-level-await dist/index.js",
+    "test": "jest",
+    "dev:start": "node --loader @k-foss/ts-esnode --experimental-specifier-resolution=node --harmony-top-level-await src/index.ts",
+    "dev:debug": "node --nolazy --inspect-brk=0.0.0.0 --loader @k-foss/ts-esnode --experimental-specifier-resolution=node --harmony-top-level-await src/index.ts",
+    "dev:hmr": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@k-foss/ts-esnode": "^1.1.0",
+    "typescript": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.6",
+    "nodemon": "^2.0.2"
+  }
+}
